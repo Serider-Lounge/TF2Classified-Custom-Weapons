@@ -1,7 +1,19 @@
 #base items_game.txt
 
 "items_game"
-{	
+{
+    "attributes"
+    {
+        "15190"
+        {
+            "name"                    "tachy holdrockets explain"
+            "attribute_class"        "mod_tachy_holdrockets_explain"
+            "description_string"    "Hold Fire to load up to %s1 rockets
+Release Fire to unleash the barrage"
+            "description_format"    "value_is_additive"
+            "effect_type"            "positive"
+        }
+    }
 	"prefabs"
 	{
 		"weapon_sword"
