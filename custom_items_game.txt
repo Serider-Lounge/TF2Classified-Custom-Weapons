@@ -406,6 +406,11 @@
 					"attribute_class"	"mod_teleporter_cost"
 					"value"				"1.5"
 				}
+				"allowed in medieval mode"
+				{
+					"attribute_class"	"allowed_in_medieval_mode"
+					"value"	"1"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -489,6 +494,250 @@
 			}
 			"mouse_pressed_sound"	"ui/item_pack_pickup.wav"
 			"drop_sound"		"ui/item_pack_drop.wav"
+		}
+		///// BLOOD MAKER - GIGACHAD GAMING
+		"40007"
+		{
+			"name"	"blood maker"
+			"item_class"	"tf_weapon_pda_engineer_build"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_PDA_Engineer"
+			"item_name"	"Blood Maker"
+			"item_description"	"One day a great invention and an idea came to my mind: I can generate blood from you."
+			"item_slot"	"pda"
+			"item_quality"	"unique"
+			"anim_slot" "MELEE_ALLCLASS"
+			"propername"	"1"
+			"attach_to_hands" "1"
+			"image_inventory"	"backpack/weapons/w_models/w_builder"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_builder/c_builder.mdl"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 -2 -9"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"3" 
+				}
+				"kill eater score type 2"
+				{
+					"attribute_class"	"kill_eater_score_type_2"
+					"value" 	"59" 
+				}
+				"kill eater score type 3"
+				{
+					"attribute_class"	"kill_eater_score_type_3"
+					"value" 	"60" 
+				}
+				"engy sentry turn rate bonus"
+                {
+                    "attribute_class"    "mult_sentry_turnrate"
+                    "value"                "2"
+                }
+				"engy sentry knockback bonus"
+                {
+                    "attribute_class"    "mult_sentry_knockback"
+                    "value"                "2"
+                }
+				"engy sentry damage bonus"
+				{
+					"attribute_class"	"mult_engy_sentry_damage"
+					"value"				"1.4"
+				}
+				"engy sentry fire rate increased"
+				{
+					"attribute_class"	"mult_sentry_firerate"
+					"value"				"1.25"
+				}
+				"sentry cost increased"
+				{
+					"attribute_class"	"mod_giga_sentry_cost_increased"
+					"value"					"1.5"
+				}
+				"hidden separator"	"1"
+				"mod sentrygun cost"
+				{
+					"attribute_class"	"mod_sentrygun_cost"
+					"value"					"1.5"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"visuals"
+			{
+				"animation_replacement"
+				{
+					"ACT_VM_IDLE"	"ACT_ENGINEER_PDA2_VM_IDLE"
+					"ACT_VM_DRAW"	"ACT_ENGINEER_PDA2_VM_DRAW"
+				}
+			}
+		}
+		//// REPLENISHER - GIGACHAD GAMING
+		"40008"
+		{
+			"name" "dispensergraded"
+			"enabled"	"1"
+			"item_class"	"tf_weapon_pda_engineer_build"
+			"item_name"	"The Replenisher 5000"
+			"item_type_name"	"#TF_Weapon_PDA_Engineer"
+			"item_description"	"Be not afraid, this works (I hope)!"
+			"item_slot"	"pda"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"99"
+			"show_in_armory"	"1"
+			"attach_to_hands" "1"
+			"image_inventory"	"backpack/weapons/w_models/w_builder"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_builder/c_builder.mdl"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"3" 
+				}
+				"kill eater score type 2"
+				{
+					"attribute_class"	"kill_eater_score_type_2"
+					"value" 	"59" 
+				}
+				"kill eater score type 3"
+				{
+					"attribute_class"	"kill_eater_score_type_3"
+					"value" 	"60" 
+				}
+				"mod dispenser cost"
+				{
+					"attribute_class"	"mod_dispenser_cost"
+					"value"	"0.85"
+				}
+				"mult dispenser rate"
+				{
+					"attribute_class"	"mult_dispenser_rate"
+					"value"				"2"
+				}
+				"slower dispenser build speed"
+				{
+					"attribute_class"	"mod_giga_slower_dispenser_build_speed_explain"
+					"value"				"0.75"
+				}
+				"shorter dispenser range"
+				{
+					"attribute_class"	"mod_giga_shorter_dispenser_range"
+					"value"				"0.5"
+				}
+				"hidden separator"	"1"
+				"engy dispenser radius increased"
+				{
+					"attribute_class"	"mult_dispenser_radius"
+					"value"	"0.5"
+				}
+				"engineer dispenser build rate multiplier"
+				{
+					"attribute_class"	"dispenser_build_rate_multiplier"
+					"value"	"0.75"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"visuals"
+			{
+				"animation_replacement"
+				{
+					"ACT_VM_IDLE"	"ACT_ENGINEER_PDA2_VM_IDLE"
+					"ACT_VM_DRAW"	"ACT_ENGINEER_PDA2_VM_DRAW"
+				}
+			}
+		}
+		////// BLABALBAL - GIGACHAD GAMING
+		"40009"
+		{
+			"name"	"engineerplague"
+			"item_class"	"tf_weapon_fireaxe"
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_deal_gib_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"Madman's creation"
+			"item_name"	"Fuel Leak"
+			"item_description"	"Well... I hope I don't short circuit or somethin'!"
+			"anim_slot" "MELEE_ALLCLASS"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory" "backpack/workshop/weapons/c_models/c_back_scratcher/c_back_scratcher"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 				"35"			
+			"model_player"	"models/workshop/weapons/c_models/c_back_scratcher/c_back_scratcher.mdl"
+			"attach_to_hands" "1"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"12 0 -17"				
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"attributes"
+			{
+				"fuel leak explain positive"
+				{
+					"attribute_class"	"mod_giga_fuel_leak"
+					"value"				"1"
+				}
+				"fuel leak explain negative"
+				{
+					"attribute_class"	"mod_giga_fuel_leak_negative"
+					"value"				"1"
+				}
+				"add condition on hit weapon"
+				{
+					"attribute_class"	"add_onhit_addcond_weapon"
+					"value"				"123 1"
+				}
+				"add condition on miss"
+				{
+					"attribute_class"	"onmiss_addcond"
+					"value"				"123 8"
+				}
+				"hit self on miss"
+				{
+					"attribute_class"	"hit_self_on_miss"
+					"value"				"1"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"0.3"
+				}
+				"cannot upgrade or repair buildings explain"
+				{
+					"attribute_class"	"mod_giga_cannot_upgrade_or_repair_buildings_explain"
+					"value"				"1"
+				}
+			}
 		}
 	}
 
@@ -588,6 +837,54 @@
 			"description_string"	"+%s1% more gravity on wearer"
 			"description_format"	"value_is_percentage"
 			"effect_type"			"negative"
+		}
+		"40012"
+		{
+			"name"					"sentry cost increased"
+			"attribute_class"		"mod_giga_sentry_cost_increased"
+			"description_string"	"+%s1% increase in Sentry Gun build cost"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"40013"
+		{
+			"name"					"mult dispenser rate"
+			"attribute_class"		"mult_dispenser_rate"
+			"description_string"	"+%s1% more generated Ammo and Metal"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"40014"
+		{
+            "name"                  "slower dispenser build speed"
+            "attribute_class"       "mod_giga_slower_dispenser_build_speed_explain"
+            "description_string"    "Decrease in Dispenser build speed by %s1%"
+            "description_format"    "value_is_percentage"
+            "effect_type"           "negative"
+		}
+		"40015"
+		{
+            "name"                  "shorter dispenser range"
+            "attribute_class"       "mod_giga_shorter_dispenser_range"
+            "description_string"    "%s1% decrease in Dispenser range"
+            "description_format"    "value_is_percentage"
+            "effect_type"           "negative"
+		}
+		"40016"
+		{
+            "name"                  "fuel leak explain positive"
+            "attribute_class"       "mod_giga_fuel_leak"
+            "description_string"    "On succesful Hit: Enemy bursts into flames"
+            "description_format"    "value_is_additive"
+            "effect_type"           "positive"
+		}
+		"40017"
+		{
+            "name"                  "fuel leak explain negative"
+            "attribute_class"       "mod_giga_fuel_leak_negative"
+            "description_string"    "On Miss: Apply Gas effect for 8 seconds"
+            "description_format"    "value_is_additive"
+            "effect_type"           "negative"
 		}
 	}
 }
