@@ -89,6 +89,7 @@
 			"image_inventory"		"backpack/weapons/w_models/w_aagun"
 			"mouse_pressed_sound"	"ui/item_heavier_gun_pickup.wav"
 			"drop_sound"			"ui/item_heavier_gun_drop.wav"
+			"extra_wearable"	"models/workshop/player/items/heavy/sbox2014_war_helmet_s1/sbox2014_war_helmet_s1.mdl"
 			
 			"attach_to_hands"		"1"
 
@@ -186,8 +187,8 @@
 				"Heavy"			"1"
 			}
 			
-			"model_player"			"models/weapons/c_models/c_rocketboots_soldier.mdl"
-			"image_inventory"		"backpack/weapons/c_models/c_rocketboots_soldier"
+			"model_player"		"models/workshop/player/items/heavy/sf14_heavy_robo_chest/sf14_heavy_robo_chest.mdl"
+			"image_inventory"		"backpack/workshop/player/items/heavy/sf14_heavy_robo_chest/sf14_heavy_robo_chest"
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"			"ui/item_metal_weapon_drop.wav"
 
